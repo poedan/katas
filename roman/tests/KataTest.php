@@ -83,7 +83,7 @@ class KataTest extends TestCase
     {
         $kata = new Kata();
         $roman = $kata->convert(11);
-        $this->assertSame('XII', $roman);
+        $this->assertSame('XI', $roman);
     }
     public function testNumber1999ToMCMXCIX()
     {
